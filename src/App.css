@@ -1,0 +1,158 @@
+body {
+  background: linear-gradient(135deg, #e8f0ff, #d6e3ff);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 40px;
+}
+.app {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  color: #222;
+}
+.counter,.list {
+  width: 400px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+}
+.counter-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 15px 0;
+}
+
+.counter-control button {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid #007bff;
+  background: white;
+  color: #007bff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.counter-control button:hover {
+  background: #007bff;
+  color: white;
+}
+
+.counter-control span {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.add {
+  background: #007bff;
+  color: white;
+  padding: 10px 0;
+  border: none;
+  border-radius: 6px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+.add:hover {
+  background: #005fcc;
+}
+
+.list-head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-head p {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+.list-actions {
+  display: flex;
+  gap: 8px;
+}
+
+ .list-action button {
+  margin-left: 8px;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease-in-out;
+}
+
+.reset {
+  background: transparent;
+  color: #ff4d4f;
+  border: 1px solid #ff4d4f;
+}
+
+.reset:hover {
+  background: #ff4d4f;
+  color: white;
+}
+
+.sort {
+  background: #007bff;
+  color: white;
+  border: none;
+}
+.sort:hover {
+  background: #005fcc;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0; 
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  background: #f0f3f7;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  align-items: center;
+  font-size: 15px;
+}
+
+ul li span {
+  color: #999;
+  font-size: 13px;
+}
+
+ul li button {
+  background: none;
+  border: none;
+  color: #999;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+ul li button:hover {
+  color: #ff4d4f;
+}
+.total {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 5px;
+  background: #e6f2ff;
+  font-size: 15px;
+  font-weight: 500;
+  color: #007bff;
+}
